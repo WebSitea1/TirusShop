@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký</title>
+    <link rel="stylesheet" href="css/style0login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form login" id="form">
+            <!-- login -->
+            <div class="content">
+                <h1>Login</h1>
+                <div class="group">
+                    <input type="text" class="inputText" placeholder=" " required>
+                    <label for="">UserName</label>
+                </div>
+                <div class="group">
+                    <input type="password" class="inputText" placeholder=" " required>
+                    <label for="">PassWord</label>
+                </div>
+                <a href="register.html">
+                    <button>Login</button>
+                </a>
+
+            </div>
+            <!-- đăng ký -->
+            <!-- <div class="content">
+                <h1>Register</h1>
+                <div class="group">
+                    <input type="text" class="inputText" placeholder=" " required>
+                    <label for="">UserName</label>
+                </div>
+                <div class="group">
+                    <input type="password" class="inputText" placeholder=" " required>
+                    <label for="">PassWord</label>
+                </div>
+                <div class="group">
+                    <input type="checkbox">
+                    <label for="">Save Me</label>
+                </div>
+                <button>Register</button>
+
+            </div>  -->
+            <div class="form-rotate">
+                <div id="rotate"></div>
+            </div>
+
+        </div>
+        <div class="option">
+           
+            <div class="changType active" id="login">Login</div>
+            <div class="bg-active1" id="bg-active"></div>
+            <a href="register.html" class="changType" id="register">Register</a>
+            <!-- <div class="changType" id="register">Register</div> -->
+        </div>
+    </div>
+    
+    <script src="./js/login.js"></script>
+</body>
+</html>
